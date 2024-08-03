@@ -32,7 +32,7 @@ while game_is_on:
     if ball.ycor() > 370 or ball.ycor() < -370:
         ball.bounce()
     
-    if paddle_2.distance(ball) < 30 and ball.xcor() > 320 or paddle_1.distance(ball) < 30 and ball.xcor() < -320:
+    if paddle_2.distance(ball) < 40 and ball.xcor() > 330 or paddle_1.distance(ball) < 40 and ball.xcor() < -330:
         ball.paddle_bounce()
 
     if ball.xcor() > 470:
